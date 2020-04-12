@@ -24,17 +24,26 @@
 
     <div id="main-container" class="container">
         <section class="main-section">
-            <h1>About Me</h1>
+            <h1>Contact</h1>
 
-            <img src="assets/images/me.jpg" class="auth-image" alt="Picture of Me!">
-
-            <p>I work for the State of Calfironia and I am a contract and project manager. I have always been
-                interested in coding and web development but never focused my studies on it. I graduated from U.C.
-                Berkeley with a BA in Legal Studies.</p>
-
-            <p>My dream job is working somewhere where I feel fullfilled. I haven't really thought about a job after
-                completing the coding course, but I do want to work somewhere where I can utilize my new skills and
-                still cover the cost of living (i.e. make the same or as close as possible to what I make rigt now).</p>
+            <form id="contact-form">
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="John Doe" required="required">
+                    </li>
+                    <li>
+                        <label for="email">E-mail</label>
+                        <input type="text" name="email" id="email" placeholder="example@service.com"
+                            required="required">
+                    </li>
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required="required"></textarea>
+                    </li>
+                </ul>
+                <input type="submit" name="sumbit">
+            </form>
         </section>
 
         <section class="sidebar">
@@ -52,6 +61,8 @@
             &copy; Copyright 2020 Yevgeniy Rokhin
         </div>
     </footer>
+
+
 </body>
 
 </html>
