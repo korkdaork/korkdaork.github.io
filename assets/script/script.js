@@ -44,4 +44,15 @@ $(document).ready(function () {
         window.open("https://github.com/korkdaork/WeatherDash");
     });
 
+    //--------------------Project1Dinner/Meal-Anator-----------------
+
+    $(".mealAnator").on("click", function () {
+        window.open("https://github.com/EricGip/Project1Dinner");
+    });
+
+
+    //========================================================= CONTACT SECTION ==========================================================================
+
+    //future functions
+
 });
