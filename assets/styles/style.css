@@ -64,9 +64,13 @@ h2, h3 {
 }
 
 #logo{
-    width: 300px;
+    border-radius: 5px;
+    width: 400px;
     height: 90px;
-    background-image: url("../images/background2-colorsplat.png");
+    background-image: url("../images/logobckgrnd1.png");
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
     float: left;
     font-family: 'Georgia', Times, Times New Roman, serif;
     text-align: center;
@@ -75,6 +79,7 @@ h2, h3 {
     font-weight: 700;
     font-size: 30px;
     text-decoration: none;
+    text-shadow: 2px 2px 1px rgb(20, 20, 20);
 }
 
 nav {
@@ -120,11 +125,12 @@ a:active {
     overflow: hidden;
     display: block;
     position: relative;
-    padding-bottom: 150px; /* height of your footer */
+    padding-bottom: 100px; /* height of your footer */
     
 }
 
 .main-section {
+    border-radius: 5px;
     background: whitesmoke;
     padding: 30px;
     margin: 0 0 40px 0;
@@ -132,6 +138,7 @@ a:active {
     max-width: 650px;
     float: left;
     border: 1px solid gray;
+    box-shadow: 1px 3px 10px rgb(20, 20, 20);
    
 }
 
@@ -145,6 +152,7 @@ a:active {
 
 /*side "Connect" container*/
 .sidebar {
+    border-radius: 5px;
     background: whitesmoke;
     padding: 30px;
     width: 100%;
@@ -152,6 +160,7 @@ a:active {
     float: right;
     border: 1px solid gray;
     margin-bottom: 20px;
+    box-shadow: -1px 3px 10px rgb(20, 20, 20);
 }
 
 h3, .sidebar, h2 {
@@ -178,9 +187,9 @@ footer {
     background-position: center;
     background-size: cover;
     color: #ffff;
-    padding: 30px 0;
+    padding: 15px 0;
     clear: both;
-    border-top: 8px solid #293416;
+    border-top: 6px solid #293416;
     color: whitesmoke;
     font-size: 12px;
     text-align: center;
