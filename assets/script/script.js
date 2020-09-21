@@ -50,6 +50,13 @@ $(document).ready(function () {
         window.open("https://github.com/EricGip/Project1Dinner");
     });
 
+    //--------------------Project2 Final Phantasy-----------------
+
+    $(".finPhantasy").on("click", function () {
+        window.open("https://github.com/korkdaork/BCProject2");
+    });
+
+
 
     //========================================================= CONTACT SECTION ==========================================================================
 

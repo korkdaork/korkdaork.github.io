@@ -180,6 +180,11 @@ a:active {
     margin-right: 25px;
 }
 
+#ork32px {
+    width: 38px;
+    height: 38px;
+}
+
 /*side "Connect" container*/
 .sidebar {
     border-radius: 5px;
